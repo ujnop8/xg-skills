@@ -1,0 +1,3 @@
+interface:
+  display_name: "PDF Compressor"
+  short_description: "Single or batch PDF compression"
