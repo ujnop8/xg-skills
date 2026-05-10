@@ -7,7 +7,6 @@ xiao 的个人 [Claude Code](https://claude.ai/code) skills 集合。每个 skil
 | 技能 | 路径 | 用途 | 触发场景 |
 | --- | --- | --- | --- |
 | **xg-jgj** | [skills/xg-jgj/](skills/xg-jgj/) | 金刚经解读 — 以"金刚破相场"风格用〔经〕→〔破〕→〔照〕→〔归〕四步过镜，每段 ≤150 字，必带一个当代生活景象 | 用户引用《金刚经》原文，提到"须菩提/无相/应无所住/般若"等，或请求白话解读经句 |
-| **pdf-compressor** | [skills/pdf-compressor/](skills/pdf-compressor/) | PDF 压缩 — Ghostscript 单文件 / 目录递归批量压缩，三档质量（轻/平衡/强），缺失自动装 Ghostscript | 用户要求压缩 PDF、减小文件体积、批量优化文档 |
 | **xg-quanli-ditu** | [skills/xg-quanli-ditu/](skills/xg-quanli-ditu/) | 权力地图 — 从对话/会议纪要/群聊中识别真实影响力网络，七维扫描 + 五段输出（地形速写、角色定位、流向图、关键时刻、待观察疑点），只看行为不看头衔 | 用户给出对话/纪要/聊天记录并问"谁说了算 / 谁是真正核心 / 影响力分布 / 谁在站队 / 这场对话谁占上风 / 背后的潜流" |
 
 ## 安装与使用
@@ -32,12 +31,10 @@ xg-skills/
 ├── README.md              # 本文件
 ├── .gitignore
 └── skills/
-    ├── xg-jgj/
-    │   └── SKILL.md       # 纯 prompt 型 skill
-    └── pdf-compressor/
-        ├── SKILL.md
-        ├── scripts/       # 调度的 bash 脚本
-        └── agents/        # 平台特定元数据（如 openai.yaml）
+    ├── xg-jgj/                  # 纯 prompt 型 skill
+    │   └── SKILL.md
+    └── xg-quanli-ditu/          # 纯 prompt 型 skill
+        └── SKILL.md
 ```
 
 每个 skill 至少包含一个 `SKILL.md`，frontmatter 含 `name` 与 `description`。详细约定见 [CLAUDE.md](CLAUDE.md)。

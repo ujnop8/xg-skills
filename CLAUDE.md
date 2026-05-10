@@ -17,8 +17,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **`agents/<platform>.yaml`**（可选）— 平台特定元数据。当前只见过 `agents/openai.yaml`，含 `interface.display_name` 和 `interface.short_description`，用于 OpenAI 平台展示
 
 参考实现：
-- [skills/pdf-compressor/](skills/pdf-compressor/) — 带脚本 + 平台 yaml 的完整型 skill，Ghostscript 调用、自动安装、批量递归
 - [skills/xg-jgj/](skills/xg-jgj/) — 纯 prompt 型 skill（无脚本），整个能力靠 SKILL.md 里的工作流和约束文字驱动
+- [skills/xg-quanli-ditu/](skills/xg-quanli-ditu/) — 同为纯 prompt 型，多步分析 + 结构化输出模板
+
+> 历史上还有过一个带 `scripts/` + `agents/<platform>.yaml` 的完整型 skill（pdf-compressor，已于 2026-05 移除）。新写脚本型 skill 时可参考 git 历史。
 
 ## 写新 skill 的关键判断
 
