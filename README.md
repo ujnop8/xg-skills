@@ -8,6 +8,7 @@ xiao 的个人 [Claude Code](https://claude.ai/code) skills 集合。每个 skil
 | --- | --- | --- | --- |
 | **xg-jgj** | [skills/xg-jgj/](skills/xg-jgj/) | 金刚经解读 — 以"金刚破相场"风格用〔经〕→〔破〕→〔照〕→〔归〕四步过镜，每段 ≤150 字，必带一个当代生活景象 | 用户引用《金刚经》原文，提到"须菩提/无相/应无所住/般若"等，或请求白话解读经句 |
 | **xg-quanli-ditu** | [skills/xg-quanli-ditu/](skills/xg-quanli-ditu/) | 权力地图 — 从对话/会议纪要/群聊中识别真实影响力网络，七维扫描 + 五段输出（地形速写、角色定位、流向图、关键时刻、待观察疑点），只看行为不看头衔 | 用户给出对话/纪要/聊天记录并问"谁说了算 / 谁是真正核心 / 影响力分布 / 谁在站队 / 这场对话谁占上风 / 背后的潜流" |
+| **xg-guanxi-xianying** | [skills/xg-guanxi-xianying/](skills/xg-guanxi-xianying/) | 关系显影场 — 以"八卦灵媒"语气从对话/聊天记录/剧本片段里显影人际关系的温度与暗流，按"亲/疏/暗"三重引力扫描 + 四段输出（一眼看场、关系特写、暗流时刻、留白处），闺蜜耳语风、不评判不教训 | 用户贴出多人对话/群聊/聊天记录/剧本台词并说"嗑一下 / 八卦一下 / 他们关系怎么样 / 谁跟谁好 / 谁跟谁有矛盾 / 谁在暗中站队 / 这俩什么情况 / cp 一下 / 你看出来什么了吗"。和"权力地图"的区别：那个看权力流向，这个只看亲疏冷暖明暗 |
 
 ## 安装与使用
 
@@ -33,7 +34,9 @@ xg-skills/
 └── skills/
     ├── xg-jgj/                  # 纯 prompt 型 skill
     │   └── SKILL.md
-    └── xg-quanli-ditu/          # 纯 prompt 型 skill
+    ├── xg-quanli-ditu/          # 纯 prompt 型 skill
+    │   └── SKILL.md
+    └── xg-guanxi-xianying/      # 纯 prompt 型 skill
         └── SKILL.md
 ```
 
