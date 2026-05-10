@@ -73,10 +73,6 @@ xg-skills/
 
 每个 skill 至少包含一个 `SKILL.md`，frontmatter 含 `name` 与 `description`。详细约定见 [CLAUDE.md](CLAUDE.md)。
 
-## 新增 / 更新 skill 时
-
-每次新增或修改 skill **都要回头更新本 README 的"技能清单"表格**：用途和触发场景两列要与 `SKILL.md` 的 `description` 对得上，不要让两边漂移。引入新的外部 skill 时同步更新"外部技能清单"。
-
 ## 许可
 
 个人自用，未指定开源协议。如需引用或改造请先开 issue 沟通。
